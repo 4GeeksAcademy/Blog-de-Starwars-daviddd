@@ -16,6 +16,8 @@ const SinglePlanet = () => {
             }
             const data = await response.json();
             setPlanet(data.result.properties);
+            console.log(data);
+            
 
             const properties = Object.keys(data.result.properties);
             setPropertiesToShow(properties.filter(property => data.result.properties[property] !== ""));
@@ -48,7 +50,8 @@ const SinglePlanet = () => {
     };
 
 
-
+    console.log(planet);
+    
 
     return (
         <div className="container mt-5">
@@ -60,7 +63,7 @@ const SinglePlanet = () => {
                         />
                     </Col>
                     <Col>
-                        <h1>{planet.name}</h1>
+                        <h1>{planet?.name}</h1>
                         {planet ? (
                             <>
                                 <p>
