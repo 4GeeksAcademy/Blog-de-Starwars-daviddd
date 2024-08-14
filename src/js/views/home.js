@@ -23,7 +23,7 @@ export const Home = () => {
         <Container className="mt-5">
             <Row className="mt-2">
                 <Col xs={12}>
-                    <h1 className="text-primary text-decoration-underline mb-5">Personajes</h1>
+                    <h1 className="text-danger text-decoration-underline mb-5">Personajes</h1>
                 </Col>
             </Row>
             <Row className="flex-nowrap overflow-auto">
@@ -39,7 +39,7 @@ export const Home = () => {
             </Row>
             <Row className="mt-2">
                 <Col xs={12}>
-                    <h1 className="text-primary text-decoration-underline mb-3 mt-3">Planetas</h1>
+                    <h1 className="text-danger text-decoration-underline mb-3 mt-3">Planetas</h1>
                 </Col>
             </Row>
             <Row className="mt-4 flex-nowrap overflow-auto">
@@ -56,7 +56,7 @@ export const Home = () => {
             </Row>
             <Row className="mt-2">
                 <Col xs={12}>
-                    <h1 className="text-primary text-decoration-underline mb-3 mt-3">Vehículos</h1>
+                    <h1 className="text-danger text-decoration-underline mb-3 mt-3">Vehículos</h1>
                 </Col>
             </Row>
             <Row className="mt-4 flex-nowrap overflow-auto">
